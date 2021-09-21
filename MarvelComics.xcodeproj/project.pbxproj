@@ -13,6 +13,8 @@
 		BB40FE3226F88D4300506803 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB40FE3126F88D4300506803 /* Preview Assets.xcassets */; };
 		BB40FE3D26F88D4300506803 /* MarvelComicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40FE3C26F88D4300506803 /* MarvelComicsTests.swift */; };
 		BB40FE4826F88D4300506803 /* MarvelComicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40FE4726F88D4300506803 /* MarvelComicsUITests.swift */; };
+		BB40FE5F26FA3C5500506803 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40FE5E26FA3C5500506803 /* Endpoint.swift */; };
+		BB40FE6426FA3CA000506803 /* Endpoint+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40FE6326FA3CA000506803 /* Endpoint+URL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		BB40FE4326F88D4300506803 /* MarvelComicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelComicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB40FE4726F88D4300506803 /* MarvelComicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelComicsUITests.swift; sourceTree = "<group>"; };
 		BB40FE4926F88D4300506803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB40FE5E26FA3C5500506803 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		BB40FE6326FA3CA000506803 /* Endpoint+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+URL.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 		BB40FE5826F88D6400506803 /* NetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
+				BB40FE5E26FA3C5500506803 /* Endpoint.swift */,
+				BB40FE6326FA3CA000506803 /* Endpoint+URL.swift */,
 			);
 			path = NetworkLayer;
 			sourceTree = "<group>";
@@ -291,7 +297,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB40FE6426FA3CA000506803 /* Endpoint+URL.swift in Sources */,
 				BB40FE2D26F88D4100506803 /* ContentView.swift in Sources */,
+				BB40FE5F26FA3C5500506803 /* Endpoint.swift in Sources */,
 				BB40FE2B26F88D4100506803 /* MarvelComicsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
