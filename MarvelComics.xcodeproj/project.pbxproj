@@ -95,6 +95,10 @@
 		BB40FE2926F88D4100506803 /* MarvelComics */ = {
 			isa = PBXGroup;
 			children = (
+				BB40FE5B26F88D7200506803 /* ViewModel */,
+				BB40FE5A26F88D6E00506803 /* View */,
+				BB40FE5926F88D6B00506803 /* Model */,
+				BB40FE5826F88D6400506803 /* NetworkLayer */,
 				BB40FE2A26F88D4100506803 /* MarvelComicsApp.swift */,
 				BB40FE2C26F88D4100506803 /* ContentView.swift */,
 				BB40FE2E26F88D4300506803 /* Assets.xcassets */,
@@ -128,6 +132,34 @@
 				BB40FE4926F88D4300506803 /* Info.plist */,
 			);
 			path = MarvelComicsUITests;
+			sourceTree = "<group>";
+		};
+		BB40FE5826F88D6400506803 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		BB40FE5926F88D6B00506803 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB40FE5A26F88D6E00506803 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB40FE5B26F88D7200506803 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
