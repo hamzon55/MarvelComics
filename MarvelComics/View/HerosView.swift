@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import SDWebImageSwiftUI
 struct HerosView: View {
     
     @ObservedObject var viewModel: HerosViewModel
@@ -14,6 +14,10 @@ struct HerosView: View {
 
         List(viewModel.heros.data.results) { hero in
             Text(hero.name)
+            let extractedImg = URL(string: hero.thumbnail.fullName)
+            WebImage(url: extractedImg).resizable().aspectRatio(contentMode: ContentMode.fit)
+
+        
         }.onAppear(perform: {
             viewModel.onAppear()
         })

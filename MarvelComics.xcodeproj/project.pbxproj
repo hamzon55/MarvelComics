@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,9 @@
 		BB5C5BFD270C5741007B826D /* HeroService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C5BFC270C5741007B826D /* HeroService.swift */; };
 		BB5C5C05270C6EB7007B826D /* HerosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C5C04270C6EB7007B826D /* HerosView.swift */; };
 		BB5C5C10270DABB5007B826D /* HerosConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C5C0F270DABB5007B826D /* HerosConfigurator.swift */; };
+		BB5C5C19270DF051007B826D /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = BB5C5C18270DF051007B826D /* URLImageStore */; };
+		BB5C5C1B270DF051007B826D /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = BB5C5C1A270DF051007B826D /* URLImage */; };
+		BB5C5C21270DF684007B826D /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = BB5C5C20270DF684007B826D /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5C5C21270DF684007B826D /* SDWebImageSwiftUI in Frameworks */,
+				BB5C5C1B270DF051007B826D /* URLImage in Frameworks */,
+				BB5C5C19270DF051007B826D /* URLImageStore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +224,11 @@
 			dependencies = (
 			);
 			name = MarvelComics;
+			packageProductDependencies = (
+				BB5C5C18270DF051007B826D /* URLImageStore */,
+				BB5C5C1A270DF051007B826D /* URLImage */,
+				BB5C5C20270DF684007B826D /* SDWebImageSwiftUI */,
+			);
 			productName = MarvelComics;
 			productReference = BB40FE2726F88D4100506803 /* MarvelComics.app */;
 			productType = "com.apple.product-type.application";
@@ -289,6 +300,10 @@
 				Base,
 			);
 			mainGroup = BB40FE1E26F88D4100506803;
+			packageReferences = (
+				BB5C5C17270DF051007B826D /* XCRemoteSwiftPackageReference "url-image" */,
+				BB5C5C1F270DF684007B826D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = BB40FE2826F88D4100506803 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -660,6 +675,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB5C5C17270DF051007B826D /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+		BB5C5C1F270DF684007B826D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB5C5C18270DF051007B826D /* URLImageStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB5C5C17270DF051007B826D /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImageStore;
+		};
+		BB5C5C1A270DF051007B826D /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB5C5C17270DF051007B826D /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		BB5C5C20270DF684007B826D /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB5C5C1F270DF684007B826D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BB40FE1F26F88D4100506803 /* Project object */;
 }
