@@ -13,8 +13,14 @@
 		BB40FE3226F88D4300506803 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB40FE3126F88D4300506803 /* Preview Assets.xcassets */; };
 		BB40FE3D26F88D4300506803 /* MarvelComicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40FE3C26F88D4300506803 /* MarvelComicsTests.swift */; };
 		BB40FE4826F88D4300506803 /* MarvelComicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40FE4726F88D4300506803 /* MarvelComicsUITests.swift */; };
-		BB40FE5F26FA3C5500506803 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40FE5E26FA3C5500506803 /* Endpoint.swift */; };
+		BB40FE5F26FA3C5500506803 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40FE5E26FA3C5500506803 /* Endpoints.swift */; };
 		BB40FE6426FA3CA000506803 /* Endpoint+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40FE6326FA3CA000506803 /* Endpoint+URL.swift */; };
+		BB40FE6D2704690E00506803 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40FE6C2704690E00506803 /* Hero.swift */; };
+		BB40FE722704694300506803 /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40FE712704694300506803 /* Networker.swift */; };
+		BB5C5BF7270B0917007B826D /* HerosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C5BF6270B0917007B826D /* HerosViewModel.swift */; };
+		BB5C5BFD270C5741007B826D /* HeroService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C5BFC270C5741007B826D /* HeroService.swift */; };
+		BB5C5C05270C6EB7007B826D /* HerosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C5C04270C6EB7007B826D /* HerosView.swift */; };
+		BB5C5C10270DABB5007B826D /* HerosConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C5C0F270DABB5007B826D /* HerosConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +53,14 @@
 		BB40FE4326F88D4300506803 /* MarvelComicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelComicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB40FE4726F88D4300506803 /* MarvelComicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelComicsUITests.swift; sourceTree = "<group>"; };
 		BB40FE4926F88D4300506803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB40FE5E26FA3C5500506803 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		BB40FE5E26FA3C5500506803 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		BB40FE6326FA3CA000506803 /* Endpoint+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+URL.swift"; sourceTree = "<group>"; };
+		BB40FE6C2704690E00506803 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		BB40FE712704694300506803 /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
+		BB5C5BF6270B0917007B826D /* HerosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosViewModel.swift; sourceTree = "<group>"; };
+		BB5C5BFC270C5741007B826D /* HeroService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroService.swift; sourceTree = "<group>"; };
+		BB5C5C04270C6EB7007B826D /* HerosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosView.swift; sourceTree = "<group>"; };
+		BB5C5C0F270DABB5007B826D /* HerosConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +153,9 @@
 		BB40FE5826F88D6400506803 /* NetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
-				BB40FE5E26FA3C5500506803 /* Endpoint.swift */,
-				BB40FE6326FA3CA000506803 /* Endpoint+URL.swift */,
+				BB5C5BFB270C5736007B826D /* Services */,
+				BB40FE6826FA3F8800506803 /* Endpoint */,
+				BB40FE712704694300506803 /* Networker.swift */,
 			);
 			path = NetworkLayer;
 			sourceTree = "<group>";
@@ -150,6 +163,7 @@
 		BB40FE5926F88D6B00506803 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BB40FE6C2704690E00506803 /* Hero.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -157,6 +171,8 @@
 		BB40FE5A26F88D6E00506803 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BB5C5C04270C6EB7007B826D /* HerosView.swift */,
+				BB5C5C0F270DABB5007B826D /* HerosConfigurator.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,8 +180,26 @@
 		BB40FE5B26F88D7200506803 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BB5C5BF6270B0917007B826D /* HerosViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BB40FE6826FA3F8800506803 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				BB40FE5E26FA3C5500506803 /* Endpoints.swift */,
+				BB40FE6326FA3CA000506803 /* Endpoint+URL.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		BB5C5BFB270C5736007B826D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BB5C5BFC270C5741007B826D /* HeroService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,10 +331,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB40FE6D2704690E00506803 /* Hero.swift in Sources */,
+				BB5C5BF7270B0917007B826D /* HerosViewModel.swift in Sources */,
 				BB40FE6426FA3CA000506803 /* Endpoint+URL.swift in Sources */,
 				BB40FE2D26F88D4100506803 /* ContentView.swift in Sources */,
-				BB40FE5F26FA3C5500506803 /* Endpoint.swift in Sources */,
+				BB5C5C10270DABB5007B826D /* HerosConfigurator.swift in Sources */,
+				BB5C5C05270C6EB7007B826D /* HerosView.swift in Sources */,
+				BB40FE5F26FA3C5500506803 /* Endpoints.swift in Sources */,
 				BB40FE2B26F88D4100506803 /* MarvelComicsApp.swift in Sources */,
+				BB40FE722704694300506803 /* Networker.swift in Sources */,
+				BB5C5BFD270C5741007B826D /* HeroService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
