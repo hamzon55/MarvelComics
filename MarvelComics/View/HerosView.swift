@@ -12,8 +12,8 @@ struct HerosView: View {
     @ObservedObject var viewModel: HerosViewModel
     var body: some View {
 
-        List(viewModel.users.data) { hero in
-            Text(hero.firstName!)
+        List(viewModel.heros.data.results) { hero in
+            Text(hero.name)
         }.onAppear(perform: {
             viewModel.onAppear()
         })

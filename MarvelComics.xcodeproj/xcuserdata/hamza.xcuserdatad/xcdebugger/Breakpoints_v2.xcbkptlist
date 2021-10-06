@@ -16,7 +16,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
             endingLineNumber = "30"
-            landmarkName = "getUsers()"
+            landmarkName = "getHeros()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -39,22 +39,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7F4A668D-ED6E-4ED6-8A80-FCD4ACD7A750"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MarvelComics/ViewModel/HerosViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "getUsers(count:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "55B88DFE-BBB9-4EEB-A37C-5579D9C7DEEF"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -64,7 +48,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "40"
             endingLineNumber = "40"
-            landmarkName = "getUsers(count:)"
+            landmarkName = "getUsers()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -80,15 +64,15 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
             endingLineNumber = "38"
-            landmarkName = "getUsers(count:)"
+            landmarkName = "getUsers()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "B731C744-B09A-4E77-AC9F-575B5EB4C326 - fc3387efd577f74f"
+                  uuid = "B731C744-B09A-4E77-AC9F-575B5EB4C326 - 51ad76d51bc13ac0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in MarvelComics.HerosViewModel.(getUsers in _0C7A264542661BDA54669875EC3E1296)(count: Swift.Int) -&gt; ()"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in MarvelComics.HerosViewModel.(getUsers in _0C7A264542661BDA54669875EC3E1296)() -&gt; ()"
                   moduleName = "MarvelComics"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/ViewModel/HerosViewModel.swift"
@@ -99,11 +83,11 @@
                   offsetFromSymbolStart = "73">
                </Location>
                <Location
-                  uuid = "B731C744-B09A-4E77-AC9F-575B5EB4C326 - fc3387efd577f74f"
+                  uuid = "B731C744-B09A-4E77-AC9F-575B5EB4C326 - 51ad76d51bc13ac0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in MarvelComics.HerosViewModel.(getUsers in _0C7A264542661BDA54669875EC3E1296)(count: Swift.Int) -&gt; ()"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in MarvelComics.HerosViewModel.(getUsers in _0C7A264542661BDA54669875EC3E1296)() -&gt; ()"
                   moduleName = "MarvelComics"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/ViewModel/HerosViewModel.swift"
@@ -126,9 +110,337 @@
             filePath = "MarvelComics/NetworkLayer/Endpoint/Endpoints.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
-            landmarkName = "users"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "heros"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "486C581B-624C-4CBF-93C1-D7DB79A397C0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelComics/ViewModel/HerosViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "HerosViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "486C581B-624C-4CBF-93C1-D7DB79A397C0 - 34cf0b9987056821"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of MarvelComics.HerosViewModel.heros : MarvelComics.Hero"
+                  moduleName = "MarvelComics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/ViewModel/HerosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "486C581B-624C-4CBF-93C1-D7DB79A397C0 - 775299cd81ed9f0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComics.HerosViewModel.heros.getter : MarvelComics.Hero"
+                  moduleName = "MarvelComics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/ViewModel/HerosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "321">
+               </Location>
+               <Location
+                  uuid = "486C581B-624C-4CBF-93C1-D7DB79A397C0 - 316a8df16ffb6b7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComics.HerosViewModel.heros.setter : MarvelComics.Hero"
+                  moduleName = "MarvelComics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/ViewModel/HerosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "161">
+               </Location>
+               <Location
+                  uuid = "486C581B-624C-4CBF-93C1-D7DB79A397C0 - d53909dbd9f6dcd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComics.HerosViewModel.heros.modify : MarvelComics.Hero"
+                  moduleName = "MarvelComics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/ViewModel/HerosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "486C581B-624C-4CBF-93C1-D7DB79A397C0 - 329fa42d2e71d67f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComics.HerosViewModel.heros.modify : MarvelComics.Hero with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MarvelComics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/ViewModel/HerosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "486C581B-624C-4CBF-93C1-D7DB79A397C0 - a62853ca6deb2f56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComics.HerosViewModel.$heros.getter : Combine.Published&lt;MarvelComics.Hero&gt;.Publisher"
+                  moduleName = "MarvelComics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/ViewModel/HerosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  uuid = "486C581B-624C-4CBF-93C1-D7DB79A397C0 - e303da7740f5a75a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComics.HerosViewModel.$heros.setter : Combine.Published&lt;MarvelComics.Hero&gt;.Publisher"
+                  moduleName = "MarvelComics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/ViewModel/HerosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "233">
+               </Location>
+               <Location
+                  uuid = "486C581B-624C-4CBF-93C1-D7DB79A397C0 - 8b0408d102acf7b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComics.HerosViewModel.$heros.modify : Combine.Published&lt;MarvelComics.Hero&gt;.Publisher"
+                  moduleName = "MarvelComics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "486C581B-624C-4CBF-93C1-D7DB79A397C0 - b911246847394bbe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComics.HerosViewModel.$heros.modify : Combine.Published&lt;MarvelComics.Hero&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MarvelComics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/ViewModel/HerosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "17">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD8138AA-3984-44ED-99CA-1B163FA0BD40"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelComics/ViewModel/HerosViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "init(heros:herosService:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DD8138AA-3984-44ED-99CA-1B163FA0BD40 - ab7992d19fbba24d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 0 of MarvelComics.HerosViewModel.init(heros: MarvelComics.Hero, herosService: MarvelComics.HerosServiceProtocol) -&gt; MarvelComics.HerosViewModel"
+                  moduleName = "MarvelComics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/ViewModel/HerosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "11">
+               </Location>
+               <Location
+                  uuid = "DD8138AA-3984-44ED-99CA-1B163FA0BD40 - f213ef59d34c25b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComics.HerosViewModel.__allocating_init(heros: MarvelComics.Hero, herosService: MarvelComics.HerosServiceProtocol) -&gt; MarvelComics.HerosViewModel"
+                  moduleName = "MarvelComics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/ViewModel/HerosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "10">
+               </Location>
+               <Location
+                  uuid = "DD8138AA-3984-44ED-99CA-1B163FA0BD40 - 71e9220b48e4b19f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComics.HerosViewModel.init(heros: MarvelComics.Hero, herosService: MarvelComics.HerosServiceProtocol) -&gt; MarvelComics.HerosViewModel"
+                  moduleName = "MarvelComics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/ViewModel/HerosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37BD454F-4624-4643-96DB-3B69B8072E27"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelComics/ViewModel/HerosViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getUsers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E0D4EDD-AB03-4DD5-A1FA-4A751BEC9C79"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelComics/NetworkLayer/Endpoint/Endpoints.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "user(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EFAE9DEC-AADE-4D96-A36F-52E6214BEDE2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelComics/NetworkLayer/Endpoint/Endpoint+URL.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "url"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5286B591-CAEE-4A99-885D-4962CAFE8C9C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelComics/View/HerosView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "5286B591-CAEE-4A99-885D-4962CAFE8C9C - 58a9e420e8b5f211"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComics.HerosView.body.getter : some"
+                  moduleName = "MarvelComics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/View/HerosView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "234">
+               </Location>
+               <Location
+                  uuid = "5286B591-CAEE-4A99-885D-4962CAFE8C9C - e9a5a4e9f7c7c6aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MarvelComics.HeroCharacter) -&gt; SwiftUI.Text in MarvelComics.HerosView.body.getter : some"
+                  moduleName = "MarvelComics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/View/HerosView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B7C3DF6-2F3A-4F55-B842-60ED0F4D63D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelComics/View/HerosView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>

@@ -11,9 +11,9 @@ import Combine
 protocol HerosServiceProtocol: AnyObject {
     var networker: NetworkerProtocol { get }
     
-    func getUsers() -> AnyPublisher<Users, Error>
-    func getUsers(count: Int) -> AnyPublisher<Users, Error>
-    func getUser(id: String) -> AnyPublisher<Hero, Error>
+    func getHeros() -> AnyPublisher<Hero, Error>
+    func getUsers(count: Int) -> AnyPublisher<Hero, Error>
+   // func getUser(id: String) -> AnyPublisher<HeroCharacter, Error>
 }
 
 final class HeroService: HerosServiceProtocol {
@@ -24,30 +24,30 @@ final class HeroService: HerosServiceProtocol {
          self.networker = networker
      }
     
-    func getUsers() -> AnyPublisher<Users, Error> {
-        let endpoint = Endpoint.users
+    func getHeros() -> AnyPublisher<Hero, Error> {
+        let endpoint = Endpoint.heros
                 
-                return networker.get(type: Users.self,
+                return networker.get(type: Hero.self,
                                      url: endpoint.url,
                                      headers: endpoint.headers)
     }
     
-    func getUsers(count: Int) -> AnyPublisher<Users, Error> {
+    func getUsers(count: Int) -> AnyPublisher<Hero, Error> {
         
         let endpoint = Endpoint.users(count: count)
                
-               return networker.get(type: Users.self,
+               return networker.get(type: Hero.self,
                                     url: endpoint.url,
                                     headers: endpoint.headers)
     }
     
-    func getUser(id: String) -> AnyPublisher<Hero, Error> {
-        
-        let endpoint = Endpoint.user(id: id)
-               
-               return networker.get(type:
-                                        Hero.self,
-                                    url: endpoint.url,
-                                    headers: endpoint.headers)
-    }
+//    func getUser(id: String) -> AnyPublisher<HeroCharacter, Error> {
+//
+//        let endpoint = Endpoint.user(id: id)
+//
+//               return networker.get(type:
+//                                        HeroCharacter.self,
+//                                    url: endpoint.url,
+//                                    headers: endpoint.headers)
+//    }
 }

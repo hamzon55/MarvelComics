@@ -19,8 +19,8 @@ extension Endpoint {
     var url: URL {
         var components = URLComponents()
         components.scheme = "https"
-        components.host = "dummyapi.io"
-        components.path = "/data/v1" + path
+        components.host = "gateway.marvel.com"
+        components.path = "/v1/public" + path
         components.queryItems = queryItems
         
         guard let url = components.url else {
@@ -32,7 +32,7 @@ extension Endpoint {
     
     var headers: [String: Any] {
         return [
-            "app-id": "6141d3043bd47b53f38c99b9"
-        ]
+//            "app-id": "b64b2574549f20514cddfe770e958632"
+            :]
     }
 }

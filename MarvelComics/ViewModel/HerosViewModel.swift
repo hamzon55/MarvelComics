@@ -10,28 +10,28 @@ import Combine
 
 class HerosViewModel: ObservableObject {
     // 1
-    @Published public var users: Users = Users(data: [])
+    @Published public var heros: Hero =  Hero(code: 0, status: " ", copyright: " ", attributionText: "", attributionHTML: "", etag: " ", data: HeroClass(results: []))
     
     // 2
     private var herosService: HerosServiceProtocol
     private var cancellables = Set<AnyCancellable>()
     
     // 3
-    init(users: Users = Users(data: []),
+    init(heros: Hero  =  Hero(code: 0, status: " ", copyright: " ", attributionText: "", attributionHTML: "", etag: " ", data: HeroClass(results: [])) ,
          herosService: HerosServiceProtocol = HeroService()) {
         
-        self.users = users
+        self.heros = heros
         self.herosService = herosService
     }
     
     // 4
     public func onAppear() {
-        self.getUsers(count: 40)
+        self.getUsers()
     }
     
     // 5
-    private func getUsers(count: Int) {
-        herosService.getUsers(count: count)
+    private func getUsers() {
+        herosService.getHeros()
             .receive(on: DispatchQueue.main)
             .sink { completion in
                 switch completion {
@@ -39,8 +39,9 @@ class HerosViewModel: ObservableObject {
                     print(error)
                 case .finished: break
                 }
-            } receiveValue: { [weak self] users in
-                self?.users = users
+            } receiveValue: { [weak self] heros in
+                
+                self?.heros = heros
             }
             .store(in: &cancellables)
     }

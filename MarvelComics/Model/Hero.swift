@@ -7,22 +7,30 @@
 
 import Foundation
 
-struct Users: Codable {
-    let data: [Hero]
+
+struct HeroCharacter: Codable,Identifiable {
+ 
+    var id: Int
+    var name: String
+ 
 }
 
-struct Hero: Codable, Identifiable {
-    
-    let id: String?
-    let title: String?
-    let firstName: String?
+struct Hero: Codable {
+        var code: Int
+        var status, copyright, attributionText, attributionHTML: String
+        var etag: String
+        var data: HeroClass
 }
 
-extension Hero {
-    
-    static func fake() -> Self {
+struct HeroClass: Codable {
+    var results: [HeroCharacter]
+ 
+    enum CodingKeys :  String, CodingKey {
+        case results = "results"
         
-        return Hero(id: "123", title: "example Title", firstName: "First Name")
-    }
+     }
+    
 }
+
+
 
