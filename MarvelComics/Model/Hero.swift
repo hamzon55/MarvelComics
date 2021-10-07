@@ -8,13 +8,11 @@
 import Foundation
 
 
-struct HeroCharacter: Codable,Identifiable {
- 
+struct HeroCharacter: Codable,Identifiable { 
     var id: Int
     var name: String
     var thumbnail: Thumbnail
 
- 
 }
 
 struct Thumbnail: Codable {
@@ -36,9 +34,7 @@ enum Extension: String, Codable {
 }
 
 struct Hero: Codable {
-        var code: Int
-        var status, copyright, attributionText, attributionHTML: String
-        var etag: String
+  
         var data: HeroClass
 }
 
