@@ -6,7 +6,6 @@
 //
 
 import Foundation
-
 enum APIKeys: String {
 
     
@@ -15,21 +14,15 @@ enum APIKeys: String {
     case hash = "hash"
     case apiKeyValue = "b64b2574549f20514cddfe770e958632"
     case hashValue = "f8cc0d1e4301a73cc2504f6a6983e9dd"
+
+}
+struct Test {
+    let timeStamp = String(Date().timeIntervalSince1970)
 }
 
 extension Endpoint {
     
-    static var heros: Self {
-        
-        return Endpoint(path: "/characters",
-                     queryItems: [
-                        URLQueryItem(name: APIKeys.ts.rawValue,value: "\(1)"),
-                        URLQueryItem(name: "nameStartsWith",value: "spiderMan"),
-                        URLQueryItem(name: APIKeys.apikey.rawValue,value: APIKeys.apiKeyValue.rawValue),
-                        URLQueryItem(name: APIKeys.hash.rawValue, value: APIKeys.hashValue.rawValue)
-                        ]
-        )
-    }
+
     
     static func heroes(query: String) -> Self {
         return Endpoint(path: "/characters",
@@ -44,3 +37,4 @@ extension Endpoint {
     
 
 }
+

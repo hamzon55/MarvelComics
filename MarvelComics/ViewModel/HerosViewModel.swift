@@ -44,6 +44,7 @@ class HerosViewModel: ObservableObject {
     // 5
     private func getUsers(query: String) {
         let userQuery = query.replacingOccurrences(of: " ", with: "%20")
+
         herosService.getHeros(query: userQuery)
             .receive(on: DispatchQueue.main)
             .sink { completion in

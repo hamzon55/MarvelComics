@@ -24,6 +24,7 @@
 		BB5C5C19270DF051007B826D /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = BB5C5C18270DF051007B826D /* URLImageStore */; };
 		BB5C5C1B270DF051007B826D /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = BB5C5C1A270DF051007B826D /* URLImage */; };
 		BB5C5C21270DF684007B826D /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = BB5C5C20270DF684007B826D /* SDWebImageSwiftUI */; };
+		BB966950271037FE00BDC8AF /* HeroRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB96694F271037FE00BDC8AF /* HeroRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		BB5C5BFC270C5741007B826D /* HeroService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroService.swift; sourceTree = "<group>"; };
 		BB5C5C04270C6EB7007B826D /* HerosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosView.swift; sourceTree = "<group>"; };
 		BB5C5C0F270DABB5007B826D /* HerosConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosConfigurator.swift; sourceTree = "<group>"; };
+		BB96694F271037FE00BDC8AF /* HeroRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			children = (
 				BB5C5C04270C6EB7007B826D /* HerosView.swift */,
 				BB5C5C0F270DABB5007B826D /* HerosConfigurator.swift */,
+				BB96694F271037FE00BDC8AF /* HeroRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				BB5C5C10270DABB5007B826D /* HerosConfigurator.swift in Sources */,
 				BB5C5C05270C6EB7007B826D /* HerosView.swift in Sources */,
 				BB40FE5F26FA3C5500506803 /* Endpoints.swift in Sources */,
+				BB966950271037FE00BDC8AF /* HeroRowView.swift in Sources */,
 				BB40FE2B26F88D4100506803 /* MarvelComicsApp.swift in Sources */,
 				BB40FE722704694300506803 /* Networker.swift in Sources */,
 				BB5C5BFD270C5741007B826D /* HeroService.swift in Sources */,
