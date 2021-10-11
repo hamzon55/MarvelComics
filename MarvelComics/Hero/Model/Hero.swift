@@ -36,7 +36,7 @@ enum Extension: String, Codable {
 
 struct Hero: Codable {
   
-        var data: HeroClass
+ var data: HeroClass
 }
 
 struct HeroClass: Codable {

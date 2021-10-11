@@ -12,7 +12,7 @@ struct HerosView: View {
     @State private var searchText = ""
     @ObservedObject var viewModel: HerosViewModel
     var body: some View {
-            
+        
         HStack(alignment: .top, spacing: 15){
             TextField("search ", text: $viewModel.searchQuery).onAppear(perform: {
                 viewModel.onAppear(query:  "\( $viewModel.searchQuery)")
@@ -20,13 +20,19 @@ struct HerosView: View {
         }.padding(.vertical,10)
         .padding(.horizontal)
         .background(Color.white)
-        
-      
-            List(viewModel.heros.data.results) { hero in
-                HeroRowView(character: hero)
-             }
+        NavigationView {
+
+        // HeroViewCell
+        List(viewModel.heros.data.results) { hero in
+            NavigationLink(
+                destination: HeroRouter.destinationForTappedHero(
+                    hero: hero)
+            ){
+            
+            HeroRowView(character: hero)
+            }}
+        }
     }
-    
 }
 
 struct HerosView_Previews: PreviewProvider {
