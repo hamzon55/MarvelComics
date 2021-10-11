@@ -2,8 +2,10 @@
 //  HeroRowView.swift
 //  MarvelComics
 //
-//  Created by Hamza on 8/10/21.
+//  Created by Hamza on 11/10/21.
 //
+
+
 
 import SwiftUI
 import  SDWebImageSwiftUI
@@ -16,7 +18,7 @@ struct HeroRowView : View {
 
         let extractedImg = URL(string: character.thumbnail.fullName)
         
-        WebImage(url: extractedImg).resizable().aspectRatio(contentMode: ContentMode.fill).frame(width: 150, height: 150)
+        WebImage(url: extractedImg).resizable().aspectRatio(contentMode: ContentMode.fit).frame(width: 150, height: 150)
             
             VStack(alignment: .leading, spacing: 8, content: {
                
@@ -31,5 +33,11 @@ struct HeroRowView : View {
         Spacer(minLength: 0)
         }
         
+    }
+}
+
+struct HeroRowView_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
     }
 }

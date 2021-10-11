@@ -15,10 +15,8 @@ struct Endpoint {
     
 }
 
-
 extension Endpoint {
 
-  
     var url: URL {
         var components = URLComponents()
         components.scheme = "https"

@@ -23,6 +23,7 @@ struct HerosView: View {
         NavigationView {
             // Table View
             List  {
+                
              // TExtField Search
             TextField("Search", text: $viewModel.searchQuery).onAppear()
                     .padding(7)
