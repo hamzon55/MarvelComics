@@ -1,4 +1,11 @@
 //
+//  HerosView.swift
+//  MarvelComics
+//
+//  Created by Hamza on 11/10/21.
+//
+
+//
 //  HerosViewModel.swift
 //  MarvelComics
 //
@@ -7,34 +14,32 @@
 
 import SwiftUI
 import SDWebImageSwiftUI
+
 struct HerosView: View {
     
-    @State private var searchText = ""
     @ObservedObject var viewModel: HerosViewModel
+    
     var body: some View {
-        
-        HStack(alignment: .top, spacing: 15){
-            TextField("search ", text: $viewModel.searchQuery).onAppear(perform: {
-                viewModel.onAppear(query:  "\( $viewModel.searchQuery)")
-            })
-        }.padding(.vertical,10)
-        .padding(.horizontal)
-        .background(Color.white)
         NavigationView {
-
-        // HeroViewCell
-        List(viewModel.heros.data.results) { hero in
-            NavigationLink(
-                destination: HeroRouter.destinationForTappedHero(
-                    hero: hero)
-            ){
-            
-            HeroRowView(character: hero)
-            }}
+            // Table View
+            List  {
+             // TExtField Search
+            TextField("Search", text: $viewModel.searchQuery).onAppear()
+                    .padding(7)
+                    .background(Color(.systemGray6))
+                    .cornerRadius(8)
+                
+                ForEach(viewModel.heros.data.results) { hero in
+                    // navigate to Detail
+                    NavigationLink(destination: HeroRouter.destinationForTappedHero(hero: hero)){
+                    
+                    HeroRowView(character: hero)
+                }
+        }
+        }.navigationBarTitle("Heros")
         }
     }
 }
-
 struct HerosView_Previews: PreviewProvider {
     static var previews: some View {
         HerosView(viewModel: HerosViewModel())

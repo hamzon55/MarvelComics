@@ -27,7 +27,7 @@ class HerosViewModel: ObservableObject {
             .debounce(for: 0.5, scheduler: RunLoop.main)
             .sink(receiveValue:  { str in
                 if str == "" {
-                    
+                    self.getUsers(query: "spider")
                 }else {
                     self.getUsers(query: self.searchQuery)
                 }
@@ -43,8 +43,9 @@ class HerosViewModel: ObservableObject {
     
     // 5
     private func getUsers(query: String) {
-        let userQuery = query.replacingOccurrences(of: " ", with: "%20")
-
+  
+        let  userQuery = query.replacingOccurrences(of: " ", with: "%20")
+    
         herosService.getHeros(query: userQuery)
             .receive(on: DispatchQueue.main)
             .sink { completion in
