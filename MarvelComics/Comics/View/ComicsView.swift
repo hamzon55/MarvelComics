@@ -11,16 +11,18 @@ struct ComicsView: View {
     
     @ObservedObject var viewModel: ComicsViewModel
     var body: some View {
-        
-        List (viewModel.comics.data.results) { comic in
+        NavigationView {
             
-            Text(comic.title)
+            List (viewModel.comics.data.results) { comic in
                 
-        }.onAppear(perform: {
-            viewModel.onAppear()
-        })
+                ComicRowView(comic: comic)
+                
+            }.navigationBarTitle("Comics")
+             .onAppear(perform: {
+                viewModel.onAppear()
+            })
+        }
     }
-    
 }
 
 struct ComicsView_Previews: PreviewProvider {

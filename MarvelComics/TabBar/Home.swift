@@ -17,12 +17,12 @@ struct Home: View {
             HerosView(viewModel: heroData).tabItem { Image("person.3.fill")
                 Text("Characters")
                 
-            }
+            }.environmentObject(heroData)
             
             ComicsView(viewModel: comicData).tabItem { Image("books.vertical.fill")
                 Text("Comics")
                 
-            }
+            }.environmentObject(comicData)
             
         }
     }

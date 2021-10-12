@@ -29,12 +29,15 @@ struct Comic: Codable, Identifiable {
     var issueNumber: Int
     var variantDescription: String
     var events: Characters
-
+    var thumbnail: Thumbnail
+    var resultDescription: String?
     enum CodingKeys: String, CodingKey {
         case id
         case digitalID = "digitalId"
         case title, issueNumber, variantDescription
         case events
+        case thumbnail
+        case resultDescription = "description"
     }
 }
 
