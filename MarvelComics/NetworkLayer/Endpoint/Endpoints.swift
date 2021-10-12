@@ -8,7 +8,7 @@
 import Foundation
 enum APIKeys: String {
 
-    case  ts = "ts"
+    case ts = "ts"
     case apikey = "apikey"
     case hash = "hash"
     case apiKeyValue = "b64b2574549f20514cddfe770e958632"
@@ -30,4 +30,16 @@ extension Endpoint {
                 URLQueryItem(name: APIKeys.hash.rawValue, value: APIKeys.hashValue.rawValue)
                         ])
     }
+    
+    
+    static func comics() -> Self {
+        return Endpoint(path: "/comics",
+              queryItems: [
+                
+                URLQueryItem(name: APIKeys.apikey.rawValue,value:                     APIKeys.apiKeyValue.rawValue),
+                URLQueryItem(name: APIKeys.ts.rawValue,value: "\(1)"),
+                URLQueryItem(name: APIKeys.hash.rawValue, value: APIKeys.hashValue.rawValue)
+                        ])
+    }
+    
 }
