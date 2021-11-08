@@ -20,5 +20,4 @@ class HeroDetailViewModel: ObservableObject {
         
         self.hero = hero
     }
-
 }

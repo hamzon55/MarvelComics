@@ -165,22 +165,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7AC0EA6B-486A-4075-8652-B9B0AFEC2293"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "getComics()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "058961E9-CD79-4B07-9239-857BEEDD3FF9"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -229,22 +213,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "34B7F3FB-2911-4311-BB3E-292C0E1749C1"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "getComics()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "F57173DF-79B3-4E6A-BB05-4DB660BDE979"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -258,11 +226,11 @@
             landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "F57173DF-79B3-4E6A-BB05-4DB660BDE979 - d3acbc1f97855c6f"
+                  uuid = "F57173DF-79B3-4E6A-BB05-4DB660BDE979 - 8631e15951b15c8f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem&lt;A where A1: SwiftUI.View&gt;(() -&gt; A1) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem&lt;A where A1: SwiftUI.View&gt;(() -&gt; A1) -&gt; some&gt;&gt;.0)&gt; in MarvelComics.Home.body.getter : some"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.environmentObject&lt;A where A1: Combine.ObservableObject&gt;(A1) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.environmentObject&lt;A where A1: Combine.ObservableObject&gt;(A1) -&gt; some&gt;&gt;.0)&gt; in MarvelComics.Home.body.getter : some"
                   moduleName = "MarvelComics"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/TabBar/Home.swift"
@@ -270,14 +238,14 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "22"
                   endingLineNumber = "22"
-                  offsetFromSymbolStart = "505">
+                  offsetFromSymbolStart = "856">
                </Location>
                <Location
-                  uuid = "F57173DF-79B3-4E6A-BB05-4DB660BDE979 - 21b55de2f08d299e"
+                  uuid = "F57173DF-79B3-4E6A-BB05-4DB660BDE979 - d1a7d7e94687717e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #2 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem&lt;A where A1: SwiftUI.View&gt;(() -&gt; A1) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.tabItem&lt;A where A1: SwiftUI.View&gt;(() -&gt; A1) -&gt; some&gt;&gt;.0)&gt; in MarvelComics.Home.body.getter : some"
+                  symbolName = "closure #2 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.environmentObject&lt;A where A1: Combine.ObservableObject&gt;(A1) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.environmentObject&lt;A where A1: Combine.ObservableObject&gt;(A1) -&gt; some&gt;&gt;.0)&gt; in MarvelComics.Home.body.getter : some"
                   moduleName = "MarvelComics"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/TabBar/Home.swift"
@@ -288,255 +256,6 @@
                   offsetFromSymbolStart = "51">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5413A8C0-42CE-4CEC-B462-6ADFC500AF10"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "onAppear()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A8B98305-3285-419E-9945-AB700AAAA7FA"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "ComicsViewModel"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "A8B98305-3285-419E-9945-AB700AAAA7FA - 2e5a39c10ed09704"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "property wrapper backing initializer of MarvelComics.ComicsViewModel.comics : MarvelComics.APIComicResult"
-                  moduleName = "MarvelComics"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "28">
-               </Location>
-               <Location
-                  uuid = "A8B98305-3285-419E-9945-AB700AAAA7FA - 7300f1fb0293ddbe"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MarvelComics.ComicsViewModel.comics.getter : MarvelComics.APIComicResult"
-                  moduleName = "MarvelComics"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "A8B98305-3285-419E-9945-AB700AAAA7FA - 80c63b965f1a0dc2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MarvelComics.ComicsViewModel.comics.setter : MarvelComics.APIComicResult"
-                  moduleName = "MarvelComics"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "130">
-               </Location>
-               <Location
-                  uuid = "A8B98305-3285-419E-9945-AB700AAAA7FA - d2ffadc5577b3f4e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MarvelComics.ComicsViewModel.comics.modify : MarvelComics.APIComicResult"
-                  moduleName = "MarvelComics"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "52">
-               </Location>
-               <Location
-                  uuid = "A8B98305-3285-419E-9945-AB700AAAA7FA - b3ed212aeb3aff04"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MarvelComics.ComicsViewModel.comics.modify : MarvelComics.APIComicResult with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "MarvelComics"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "34">
-               </Location>
-               <Location
-                  uuid = "A8B98305-3285-419E-9945-AB700AAAA7FA - eee7e3463bfd38db"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MarvelComics.ComicsViewModel.$comics.getter : Combine.Published&lt;MarvelComics.APIComicResult&gt;.Publisher"
-                  moduleName = "MarvelComics"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "110">
-               </Location>
-               <Location
-                  uuid = "A8B98305-3285-419E-9945-AB700AAAA7FA - e4815c954b7b59ef"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MarvelComics.ComicsViewModel.$comics.setter : Combine.Published&lt;MarvelComics.APIComicResult&gt;.Publisher"
-                  moduleName = "MarvelComics"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "233">
-               </Location>
-               <Location
-                  uuid = "A8B98305-3285-419E-9945-AB700AAAA7FA - 9112badd6dfc42f7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MarvelComics.ComicsViewModel.$comics.modify : Combine.Published&lt;MarvelComics.APIComicResult&gt;.Publisher"
-                  moduleName = "MarvelComics"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/%3Ccompiler-generated%3E"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "53">
-               </Location>
-               <Location
-                  uuid = "A8B98305-3285-419E-9945-AB700AAAA7FA - 5d20f5132e70c726"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MarvelComics.ComicsViewModel.$comics.modify : Combine.Published&lt;MarvelComics.APIComicResult&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "MarvelComics"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "17">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "071ADCBA-06C1-4492-A107-754490549C93"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "getComics()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "071ADCBA-06C1-4492-A107-754490549C93 - 5d39bd916b726c9c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MarvelComics.ComicsViewModel.(getComics in _6977F3A4FE97A15F7257AC6DAF4C4463)() -&gt; ()"
-                  moduleName = "MarvelComics"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "538">
-               </Location>
-               <Location
-                  uuid = "071ADCBA-06C1-4492-A107-754490549C93 - 88d3680576a53f67"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in MarvelComics.ComicsViewModel.(getComics in _6977F3A4FE97A15F7257AC6DAF4C4463)() -&gt; ()"
-                  moduleName = "MarvelComics"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hamza/Desktop/Workspace/MarvelComics/MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "73">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "54560537-B74C-457C-8ECD-F6B0A68DF26F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "getComics()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "DBDF3BF0-309B-49F6-B008-9619AA6BB779"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "ComicsViewModel"
-            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -632,22 +351,6 @@
             startingLineNumber = "17"
             endingLineNumber = "17"
             landmarkName = "configureComicsView(with:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C4778D1B-32D0-400D-8D9C-40273E8C5751"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MarvelComics/Comics/ViewModel/ComicsViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "init(herosService:comics:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

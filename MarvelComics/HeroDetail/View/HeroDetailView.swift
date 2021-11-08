@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct HeroDetailView: View {
     
@@ -13,11 +14,18 @@ struct HeroDetailView: View {
 
     
     var body: some View {
-        HStack {
-            Text(viewModel.hero.name)
+        VStack(alignment: .leading) {
+            let extractedImg = URL(string: viewModel.hero.thumbnail.fullName)
+            WebImage(url: extractedImg).resizable().aspectRatio(contentMode: ContentMode.fill).frame(width: 200, height: 200, alignment: .center).clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+            }.onAppear()
+          
+            VStack(alignment: .center) {
+                Text(viewModel.hero.name).font(.headline).frame(width: .none, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+     
             Text(viewModel.hero.description)
-        }.onAppear()
-        
+
+            }
+            Spacer()
         
     }
 }
