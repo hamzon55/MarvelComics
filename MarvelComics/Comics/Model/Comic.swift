@@ -9,33 +9,32 @@ import Foundation
 
 
 
-// MARK: - Thumbnail
+
 struct APIComicResult: Codable {
   
     var data: APIComicData
 }
 
-// MARK: - DataClass
 struct APIComicData: Codable {
   
     var results: [Comic]
 }
 
-// MARK: - Result
+
 struct Comic: Codable, Identifiable {
     var id: Int
     var digitalID: Int
     var title: String
     var issueNumber: Int
     var variantDescription: String
-    var events: Characters
+   // var events: Characters
     var thumbnail: Thumbnail
     var resultDescription: String?
     enum CodingKeys: String, CodingKey {
         case id
         case digitalID = "digitalId"
         case title, issueNumber, variantDescription
-        case events
+      //  case events
         case thumbnail
         case resultDescription = "description"
     }

@@ -13,12 +13,18 @@ struct ComicsView: View {
     var body: some View {
         NavigationView {
             
-            List (viewModel.comics.data.results) { comic in
+            List {
                 
-                ComicRowView(comic: comic)
+                ForEach(viewModel.comics.data.results) { comic in
+                    NavigationLink(destination: ComicsRouter.destinationForTappedComic(comic: comic)){
+                        
+                        
+                        ComicRowView(comic: comic)
+                    }
+                }
                 
             }.navigationBarTitle("Comics")
-             .onAppear(perform: {
+            .onAppear(perform: {
                 viewModel.onAppear()
             })
         }
