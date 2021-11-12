@@ -7,6 +7,18 @@
 
 import Foundation
 
+struct Hero: Codable {
+ var data: HeroClass
+}
+
+struct HeroClass: Codable {
+    var results: [HeroCharacter]
+ 
+    enum CodingKeys :  String, CodingKey {
+        case results = "results"
+     }
+    
+}
 
 struct HeroCharacter: Codable,Identifiable { 
     var id: Int
@@ -34,20 +46,11 @@ enum Extension: String, Codable {
     case jpg = "jpg"
 }
 
-struct Hero: Codable {
-  
- var data: HeroClass
+
+extension HeroCharacter {
+    static func fake() -> Self {
+       
+        return HeroCharacter(id: 1, name: "SpiderMan", thumbnail: Thumbnail(path: "path", thumbnailExtension: .gif), description: "SpiderMan Hero")
+    }
 }
-
-struct HeroClass: Codable {
-    var results: [HeroCharacter]
- 
-    enum CodingKeys :  String, CodingKey {
-        case results = "results"
-        
-     }
-    
-}
-
-
 

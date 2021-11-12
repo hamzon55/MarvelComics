@@ -22,7 +22,7 @@ struct HeroDetailView: View {
             VStack(alignment: .center) {
                 Text(viewModel.hero.name).font(.headline).frame(width: .none, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
      
-            Text(viewModel.hero.description)
+                Text(viewModel.hero.description.htmlStripped)
 
             }
             Spacer()
@@ -33,11 +33,8 @@ struct HeroDetailView: View {
 struct HeroDetailView_Previews: PreviewProvider {
     static var previews: some View {
       
-        HeroDetailView(viewModel: HeroDetailViewModel(hero: HeroCharacter(id: 1, name: "test",
-            thumbnail: Thumbnail(path: "test", thumbnailExtension: .gif),
-              description: "test")))
+        HeroDetailView(viewModel: HeroDetailViewModel(hero: HeroCharacter.fake()))
 
     }
     
 }
-
